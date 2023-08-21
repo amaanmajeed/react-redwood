@@ -1,0 +1,50 @@
+App.js
+    <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/lifestyle" element={<Lifestyle />} />
+          <Route path="/travel" element={<Travel />} />
+        </Routes>
+        <Footer />
+      </Router>
+      
+
+AboutUs.js
+      <LifestyleBody/>
+      <div className="bottom bwrapper">
+        <AboutLeft/>
+        <MainRight/>
+      </div>
+
+
+Contact.js
+<LifestyleBody/>
+    <div className="bottom bwrapper">
+      <ContactLeft/>
+      <MainRight/>
+    </div>
+
+Index.js
+<Mainbody />
+      <div className="bottom bwrapper">
+      <MainLeft/>
+      <MainRight/>
+      </div>
+
+Lifestyle.js
+<LifestyleBody />
+      <div className="bottom bwrapper">
+        <LifeStyleLeft />
+        <MainRight/>
+      </div>
+
+Travel.js
+<LifestyleBody />
+      <div className="bottom bwrapper">
+        <TravelLeft />
+        <MainRight/>
+      </div>    
+

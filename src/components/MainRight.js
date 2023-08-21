@@ -7,7 +7,7 @@ export default function MainRight() {
       <div className="rightsection">
             <p className="long-black">About me</p>
 
-            <img src="images/right top.jpg" alt="right Top Image" className="flowerimg"/>
+            <img src="images/right top.jpg" alt="right Top" className="flowerimg"/>
             <div className="textcontainer">
                 <h6>PHOTOGRAPHER & BLOGGER</h6>
                 <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache.</p>
@@ -30,7 +30,7 @@ export default function MainRight() {
             <div className="subscribe-panel">
                 <p>Subscribe to my Newsletter</p>
                 <input type="text" placeholder="Your email address"/>
-                <a href="">Subscribe</a>
+                <a href="www.google.com">Subscribe</a>
             </div>
 
             

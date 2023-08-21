@@ -1,23 +1,23 @@
 import './App.css';
 import './style.css';
-import Index from './pages/Index';
-import Lifestyle from './pages/Lifestyle';
-import Travel from './pages/Travel';
-import AboutUs from './pages/AboutUs';
-import Contact from './pages/Contact';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Inner from './Inner';
+
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 function App() {
   return (
     <>
-      <Index />
-      {/* <Lifestyle/> */}
-      {/* <Travel/> */}
-      {/* <AboutUs/> */}
-      {/* <Contact/> */}
-
+    <Router>
+      <Navbar />
+        <Inner/>
+      <Footer />
+    </Router>
     </>
   );
 }
 
 export default App;
+

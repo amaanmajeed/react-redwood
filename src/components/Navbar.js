@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
 
@@ -11,19 +12,19 @@ export default function Navbar() {
                 <div className="left-menu">
                     <ul className="left-ul">
                         <div className="mobile-drop">
-                            <li id="barbtn"><a href="javascript:;"><i className="fa-solid fa-bars"></i></a></li>
+                            <li id="barbtn"><a href="className="><i className="fa-solid fa-bars"></i></a></li>
                             {/* Mobile-menu */}
                             <div className="fullwidth">
                             
                                 <div className="mobile-menu">
                                     <ul className="mobile-ul">
-                                        <li><a href="index.html">Home <i className="fa-solid fa-chevron-down"></i></a></li>
-                                        <li><a href="">Features <i className="fa-solid fa-chevron-down"></i></a></li>
-                                        <li><a href="lifestyle.html">Lifestyle</a></li>
-                                        <li><a href="travel.html">Travel</a></li>
-                                        <li><a href="">Shop <i className="fa-solid fa-chevron-down"></i></a></li>
-                                        <li><a href="about-me.html">About me</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><Link to='/'>Home <i className="fa-solid fa-chevron-down"></i></Link></li>
+                                        <li><a href="/">Features <i className="fa-solid fa-chevron-down"></i></a></li>
+                                        <li><Link to='/lifestyle'>Lifestyle</Link></li>
+                                        <li><Link to='/travel'>Travel</Link></li>
+                                        <li><a href="/">Shop <i className="fa-solid fa-chevron-down"></i></a></li>
+                                        <li><Link to='/aboutus'>About me</Link></li>
+                                        <li><Link to='/contact'>Contact</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -31,38 +32,38 @@ export default function Navbar() {
                         </div>
                         
                         <div className="drop-home">
-                            <li id="nbtn"><a href="index.html">Home <i className="fa-solid fa-chevron-down"></i></a></li>
+                            <li id="nbtn"><Link to='/'>Home <i className="fa-solid fa-chevron-down"></i></Link></li>
                             <div className="content-home">
-                                <a href="">Item 1</a>
-                                <a href="">Item 1</a>
-                                <a href="">Item 1</a>
-                                <a href="">Item 1</a>
-                                <a href="">Item 1</a>
-                                <a href="">Item 1</a>
+                                <a href="/">Item 1</a>
+                                <a href="/">Item 1</a>
+                                <a href="/">Item 1</a>
+                                <a href="/">Item 1</a>
+                                <a href="/">Item 1</a>
+                                <a href="/">Item 1</a>
                             </div>
                         </div>
 
                         <div className="drop-features">
-                            <li id="nbtn"><a href="">Features <i className="fa-solid fa-chevron-down"></i></a></li>
+                            <li id="nbtn"><a href="/">Features <i className="fa-solid fa-chevron-down"></i></a></li>
                             <div className="content-features">
-                                <a href="">Item 2</a>
-                                <a href="">Item 2</a>
-                                <a href="">Item 2</a>
-                                <a href="">Item 2</a>
-                                <a href="">Item 2</a>
+                                <a href="/">Item 2</a>
+                                <a href="/">Item 2</a>
+                                <a href="/">Item 2</a>
+                                <a href="/">Item 2</a>
+                                <a href="/">Item 2</a>
                             </div>
                         </div>
-                        <li id="nbtn"><a href="lifestyle.html">Lifestyle</a></li>
-                        <li id="nbtn"><a href="travel.html">Travel</a></li>
+                        <li id="nbtn"><Link to='/lifestyle'>Lifestyle</Link></li>
+                        <li id="nbtn"><Link to='/travel'>Travel</Link></li>
                         <div className="drop-shop">
-                            <li id="nbtn"><a href="">Shop <i className="fa-solid fa-chevron-down"></i></a></li>
+                            <li id="nbtn"><a href="/">Shop <i className="fa-solid fa-chevron-down"></i></a></li>
                             <div className="content-shop">
-                                <a href="">Cart</a>
-                                <a href="">Checkout</a>
+                                <a href="/">Cart</a>
+                                <a href="/">Checkout</a>
                             </div>
                         </div>
-                        <li id="nbtn"><a href="about-me.html">About me</a></li>
-                        <li id="nbtn"><a href="contact.html">Contact</a></li>
+                        <li id="nbtn"><Link to='/aboutus'>About me</Link></li>
+                        <li id="nbtn"><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>
                 

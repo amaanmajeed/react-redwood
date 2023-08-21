@@ -5,10 +5,10 @@ function PromoItem(props) {
   return (
     <>
           {/* Post Start */}
-            <div class="promo-item">
+            <div className="promo-item">
                 <a href="www.google.com" className='promo-a'>
-                    <div class="promo-img" style={{backgroundImage: `url(${props.image})`}}>
-                        <div class="promo-inner">
+                    <div className="promo-img" style={{backgroundImage: `url(${props.image})`}}>
+                        <div className="promo-inner">
                         <h3>{props.name}</h3>
                         </div>
                     </div>

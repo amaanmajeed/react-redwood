@@ -1,20 +1,18 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import LifestyleBody from '../components/LifestyleBody';
-import LifeStyleLeft from '../components/LifeStyleLeft';
-import MainRight from '../components/MainRight';
-import Footer from '../components/Footer';
 
-export default function Lifestyle() {
+import LifestyleBody from '../components/LifestyleBody';
+import TravelLeft from '../components/TravelLeft';
+import MainRight from '../components/MainRight';
+
+
+export default function Travel() {
   return (
       <>
-          <Navbar />
       <LifestyleBody />
       <div className="bottom bwrapper">
-        <LifeStyleLeft />
+        <TravelLeft />
         <MainRight/>
       </div>
-      <Footer/>
       </>
   );
 }

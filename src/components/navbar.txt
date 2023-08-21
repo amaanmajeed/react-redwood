@@ -17,38 +17,38 @@ export default function Navbar() {
                     <ul className="left-ul">
                         <li id="barbtn" onClick={toggleMobileMenu}><a href="/"><i className="fa-solid fa-bars"></i></a></li>
                         <div className="drop-home">
-                            <li id="nbtn"><a href="index.html">Home <i className="fa-solid fa-chevron-down"></i></a></li>
+                            <li id="nbtn"><Link to='/'>Home <i className="fa-solid fa-chevron-down"></i></a></li>
                             <div className="content-home">
-                                <a href="index.html">Item 1</a>
-                                <a href="index.html">Item 1</a>
-                                <a href="index.html">Item 1</a>
-                                <a href="index.html">Item 1</a>
-                                <a href="index.html">Item 1</a>
-                                <a href="index.html">Item 1</a>
+                                <Link to='/'>Item 1</a>
+                                <Link to='/'>Item 1</a>
+                                <Link to='/'>Item 1</a>
+                                <Link to='/'>Item 1</a>
+                                <Link to='/'>Item 1</a>
+                                <Link to='/'>Item 1</a>
                             </div>
                         </div>
 
                         <div className="drop-features">
-                            <li id="nbtn"><a href="index.html">Features <i className="fa-solid fa-chevron-down"></i></a></li>
+                            <li id="nbtn"><Link to='/'>Features <i className="fa-solid fa-chevron-down"></i></a></li>
                             <div className="content-features">
-                                <a href="index.html">Item 2</a>
-                                <a href="index.html">Item 2</a>
-                                <a href="index.html">Item 2</a>
-                                <a href="index.html">Item 2</a>
-                                <a href="index.html">Item 2</a>
+                                <Link to='/'>Item 2</a>
+                                <Link to='/'>Item 2</a>
+                                <Link to='/'>Item 2</a>
+                                <Link to='/'>Item 2</a>
+                                <Link to='/'>Item 2</a>
                             </div>
                         </div>
-                        <li id="nbtn"><a href="lifestyle.html">Lifestyle</a></li>
-                        <li id="nbtn"><a href="travel.html">Travel</a></li>
+                        <li id="nbtn"><Link to='/lifestyle'>Lifestyle</a></li>
+                        <li id="nbtn"><Link to='/travel'>Travel</a></li>
                         <div className="drop-shop">
-                            <li id="nbtn"><a href="index.html">Shop <i className="fa-solid fa-chevron-down"></i></a></li>
+                            <li id="nbtn"><Link to='/'>Shop <i className="fa-solid fa-chevron-down"></i></a></li>
                             <div className="content-shop">
-                                <a href="index.html">Cart</a>
-                                <a href="index.html">Checkout</a>
+                                <Link to='/'>Cart</a>
+                                <Link to='/'>Checkout</a>
                             </div>
                         </div>
-                        <li id="nbtn"><a href="about-me.html">About me</a></li>
-                        <li id="nbtn"><a href="contact.html">Contact</a></li>
+                        <li id="nbtn"><Link to='/aboutus'>About me</a></li>
+                        <li id="nbtn"><Link to='/contact'>Contact</a></li>
                     </ul>
                 </div>
                 
@@ -79,13 +79,13 @@ export default function Navbar() {
 
         <div className="mobile-menu">
             <ul className="mobile-ul">
-                <li><a href="index.html">Home <i className="fa-solid fa-chevron-down"></i></a></li>
-                <li><a href="index.html">Features <i className="fa-solid fa-chevron-down"></i></a></li>
-                <li><a href="lifestyle.html">Lifestyle</a></li>
-                <li><a href="travel.html">Travel</a></li>
-                <li><a href="index.html">Shop <i className="fa-solid fa-chevron-down"></i></a></li>
-                <li><a href="about-me.html">About me</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><Link to='/'>Home <i className="fa-solid fa-chevron-down"></i></a></li>
+                <li><Link to='/'>Features <i className="fa-solid fa-chevron-down"></i></a></li>
+                <li><Link to='/lifestyle'>Lifestyle</a></li>
+                <li><Link to='/travel'>Travel</a></li>
+                <li><Link to='/'>Shop <i className="fa-solid fa-chevron-down"></i></a></li>
+                <li><Link to='/aboutus'>About me</a></li>
+                <li><Link to='/contact'>Contact</a></li>
             </ul>
         </div>
     </div>

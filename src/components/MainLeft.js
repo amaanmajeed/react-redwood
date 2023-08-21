@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function SinglePost(props) {
     return (
         <>
            <div className="col-sm-6 single-post">
                 <img src={props.image} alt="PostImg"/>
-                <a href="lifestyle.html">{props.category}</a>
+                <Link to='/lifestyle'>{props.category}</Link>
                 <h4 className="hovergrey">{props.heading}</h4>
                 <hr/>
                 <p>{props.text}</p>
@@ -74,7 +75,7 @@ export default function MainLeft() {
         <div className="leftsection">
 
             <div className="uppercontainer">
-                <a href="travel.html">Travel</a>
+                <Link to='/travel'>Travel</Link>
                 <h2 className="second">SUMMER SOIREE INSIRATION</h2>
                 <hr/>
                   <p className="greytext" style={{ textAlign: "center" }}>Posted on June 14, 2015</p>
@@ -82,7 +83,7 @@ export default function MainLeft() {
             </div>
             
             <div className="bigimg">
-                <img src="images/redwood-post1.jpg" alt="Some Image"/>
+                <img src="images/redwood-post1.jpg" alt="Some"/>
                 <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth
                 anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v
                 chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art
@@ -94,7 +95,7 @@ export default function MainLeft() {
                 do umami readymade swag. Selfies iPhone Kickstarter, drinking vinegar jean.</p>
             </div>
             <div className="reading">
-                <a className="orange" href="">Continue Reading</a>
+                <a className="orange" href="www.google.com">Continue Reading</a>
                 <hr/>
             </div>
 
@@ -135,7 +136,7 @@ export default function MainLeft() {
 
                 <div className="older-container">
                     <div className="older-posts">
-                        <a className="hovergrey" href="">Older Posts <i className="fa fa-angle-double-right"></i></a>
+                        <a className="hovergrey" href="www.google.com">Older Posts <i className="fa fa-angle-double-right"></i></a>
                         <hr/>
                     </div>
                 </div>

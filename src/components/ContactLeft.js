@@ -29,7 +29,7 @@ export default function ContactLeft() {
                     <p>Your Message</p>
                     <textarea name="message" id="message" cols="30" rows="7"></textarea>
 
-                    <p className="sendbtn"><a href="">Send</a></p>
+                    <p className="sendbtn"><a href="www.google.com">Send</a></p>
                     {/* <p className="sendbtn">Send</p> */}
                 </div>
 
